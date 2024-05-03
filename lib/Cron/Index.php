@@ -30,9 +30,8 @@ declare(strict_types=1);
 
 namespace OCA\FullTextSearch\Cron;
 
-
 use Exception;
-use OC\BackgroundJob\TimedJob;
+use OCP\BackgroundJob\TimedJob;
 use OCA\FullTextSearch\AppInfo\Application;
 use OCA\FullTextSearch\Exceptions\PlatformTemporaryException;
 use OCA\FullTextSearch\Exceptions\RunnerAlreadyUpException;
